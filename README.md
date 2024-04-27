@@ -1,4 +1,5 @@
 **1. How to run the code**
+
 Clone the repository and open in CLion (or any other IDE)
 Make sure a C++ compiler is on your device
 Go into the main.cpp code (where all the code for this assignment is located)
@@ -15,7 +16,9 @@ For the get method, in the case that NULL is returned because the key doesn't ex
 in the DB, it will show as 0 being returned, due to C++ limitations. In the actual code for get(),
 NULL is returned, but when it is outputted to the console, C++ writes it as 0.
 
-**How this assignment should be modified to become an "official" assignment in the future**
+
+**2. How this assignment should be modified to become an "official" assignment in the future**
+
 To become an official assignment in the future, the instructions should be clearer so that
 students have an easier time understanding exactly what is required. For example, for the get()
 method, it can be clarified that either NULL or 0 can be returned depending on the programming 
