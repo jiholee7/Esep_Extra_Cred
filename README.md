@@ -1,9 +1,14 @@
 **1. How to run the code**
 
-Clone the repository and open in CLion (or any other IDE)
-Make sure a C++ compiler is on your device
-Go into the main.cpp code (where all the code for this assignment is located)
-Compile and run main.cpp
+Clone the repository and open in CLion (or any other IDE).
+
+Make sure a C++ compiler is on your device.
+
+Go into the main.cpp code (where all the code for this assignment is located).
+
+Compile and run main.cpp.
+
+Some Things to NOTE:
 
 As the instructions didn't mention requiring user input or menu system, the tests
 have been hard coded in the main function.
@@ -11,7 +16,6 @@ have been hard coded in the main function.
 The tests for the In Memory DB are as displayed in the instruction document with additional tests
 created by myself to ensure comprehensive testing of all features and potential error conditions.
 
-NOTE:
 For the get method, in the case that NULL is returned because the key doesn't exist
 in the DB, it will show as 0 being returned, due to C++ limitations. In the actual code for get(),
 NULL is returned, but when it is outputted to the console, C++ writes it as 0.
