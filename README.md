@@ -1,4 +1,4 @@
-****1. How to run the code****
+#1. How to run the code
 
 Clone the repository and open in CLion (or any other IDE).
 
@@ -7,6 +7,12 @@ Make sure a C++ compiler is on your device.
 Go into the main.cpp code (where all the code for this assignment is located).
 
 Compile and run main.cpp.
+
+Here is documentation on how to clone projects from GitHub using CLion if needed:
+
+https://www.jetbrains.com/help/clion/manage-projects-hosted-on-github.html
+
+This documentation also includes directions on compiling and running applications if needed.
 
 ***Some Things to NOTE:***
 
@@ -21,7 +27,7 @@ in the DB, it will show as 0 being returned, due to C++ limitations. In the actu
 NULL is returned, but when it is outputted to the console, C++ writes it as 0.
 
 
-****2. How this assignment should be modified to become an "official" assignment in the future****
+#2. How this assignment should be modified to become an "official" assignment in the future
 
 To become an official assignment in the future, the instructions should be clearer so that
 students have an easier time understanding exactly what is required. For example, for the get()
